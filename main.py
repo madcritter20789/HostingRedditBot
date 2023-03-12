@@ -11,27 +11,9 @@ reddit = praw.Reddit(
     check_for_async=False
 )
 
-subreddit = reddit.subreddit("cool")
-print(subreddit.display_name)
-print(subreddit.title)
-print(subreddit.description)
-
-for submission in reddit.subreddit("cars").hot(limit=5):
-    print(submission.title)
-    print(submission.score)
-    print(submission.id)
-    print(submission.url)
-
-for post in reddit.subreddit("cars").hot(limit=5):
-    print(post.title)
-    print(post.score)
-    print(post.id)
-    print(post.url)
-
-
 def karma():
     try:
-        messages = ["Upvoted, upvote in return","Great Post,cure to upvoteQ"]
+        messages = ["Upvoted, upvote in return","Great Post,care to upvote"]
         for submission in reddit.subreddit("FreeKarma4U+FreeKarma4You").stream.submissions():
             submission.upvote()
             rand = random.randint(0, (len(messages)-1))
