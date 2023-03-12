@@ -37,9 +37,9 @@ def karma():
             rand = random.randint(0, (len(messages)-1))
             print(submission.title)
             submission.reply(messages[rand])
-            time.sleep(30000)
+            time.sleep(300000)
     except:
-        time.sleep(30000)
+        time.sleep(300000)
         karma()
 
 karma()
