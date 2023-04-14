@@ -9,7 +9,7 @@ from yahoo_fin import stock_info as si
 reddit = praw.Reddit(
     client_id="Fa5UzGLCvcDg-b5YvFQYUQ",
     client_secret="iASpu4AM0PNTsMl-jT2KNrmKRa6Kog",
-    password="123asd123asd",
+    password="***********",
     user_agent="reddit_bot",
     username="DependentEcstatic654",
     check_for_async=False
