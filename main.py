@@ -11,7 +11,7 @@ reddit = praw.Reddit(
     client_secret="*************",
     password="***********",
     user_agent="reddit_bot",
-    username="DependentEcstatic654",
+    username="*************",
     check_for_async=False
 )
 
