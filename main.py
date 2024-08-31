@@ -7,8 +7,8 @@ from heapq import nlargest
 from yahoo_fin import stock_info as si
 
 reddit = praw.Reddit(
-    client_id="Fa5UzGLCvcDg-b5YvFQYUQ",
-    client_secret="iASpu4AM0PNTsMl-jT2KNrmKRa6Kog",
+    client_id="*******************",
+    client_secret="*************",
     password="***********",
     user_agent="reddit_bot",
     username="DependentEcstatic654",
