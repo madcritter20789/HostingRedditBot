@@ -46,3 +46,9 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Data exports
+stock_data_*.json
+stock_data_*.csv
+*.json
+*.csv
